@@ -70,6 +70,7 @@ module.exports = {
       static: {
         directory: path.join(__dirname, 'public'),
       },    	// Сжимать ли бандл при компиляции
+      
       compress: true,   	// Порт на котором будет наш сервер
       port: 9000,
     },
